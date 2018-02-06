@@ -1,4 +1,4 @@
-package proxy;
+package design.demo.proxy;
 
 public interface IGamePlayer {
 

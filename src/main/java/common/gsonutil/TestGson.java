@@ -1,4 +1,4 @@
-package gsonutil;
+package common.gsonutil;
 
 import com.google.gson.reflect.TypeToken;
 

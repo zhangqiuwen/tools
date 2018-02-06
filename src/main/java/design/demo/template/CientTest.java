@@ -1,4 +1,4 @@
-package template;
+package design.demo.template;
 
 import java.time.Clock;
 
@@ -10,7 +10,7 @@ import java.time.Clock;
  **/
 public class CientTest {
     public static void main(String[] args) {
-        HummerModel h1 = new HummerH1Model();
+        design.demo.template.HummerModel h1 = new design.demo.template.HummerH1Model();
         h1.run();
         Clock clock = Clock.systemUTC();
         System.out.println(clock.millis());

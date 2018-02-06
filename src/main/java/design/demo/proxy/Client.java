@@ -1,4 +1,4 @@
-package proxy;
+package design.demo.proxy;
 
 /**
  * @author zhangqiuwen
@@ -6,8 +6,8 @@ package proxy;
  **/
 public class Client {
     public static void main(String[] args) {
-        IGamePlayer iGamePlayer = new GamePlayer("张三");
-        IGamePlayer proxy  = new GamePlayerProxy(iGamePlayer);
+        design.demo.proxy.IGamePlayer iGamePlayer = new design.demo.proxy.GamePlayer("张三");
+        design.demo.proxy.IGamePlayer proxy  = new design.demo.proxy.GamePlayerProxy(iGamePlayer);
         //开始打游戏，记下时间戳
         System.out.println("开始时间是：2009-8-25 10:45");
         proxy.login("zhangSan");

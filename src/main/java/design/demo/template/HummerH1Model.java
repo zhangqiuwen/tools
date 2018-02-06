@@ -1,10 +1,10 @@
-package template;
+package design.demo.template;
 
 /**
  * @author zhangqiuwen
  * @create 2018-01-02 15:41
  **/
-public class HummerH1Model extends HummerModel {
+public class HummerH1Model extends design.demo.template.HummerModel {
     private boolean alarmFlag = true; //要响喇叭
     @Override
     public void start() {

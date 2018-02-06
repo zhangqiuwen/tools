@@ -1,4 +1,4 @@
-package reflector;
+package design.demo.reflector;
 
 /**
  * @author zhangqiuwen

@@ -1,4 +1,4 @@
-package template;
+package design.demo.template;
 
 /**
  * @author zhangqiuwen

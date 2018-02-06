@@ -1,12 +1,12 @@
-package proxy;
+package design.demo.proxy;
 
 /**
  * @author zhangqiuwen
  * @create 2017-12-26 11:43
  **/
-public class GamePlayerProxy implements IGamePlayer {
-    private IGamePlayer gamePlayer = null;
-    public GamePlayerProxy(IGamePlayer iGamePlayer){
+public class GamePlayerProxy implements design.demo.proxy.IGamePlayer {
+    private design.demo.proxy.IGamePlayer gamePlayer = null;
+    public GamePlayerProxy(design.demo.proxy.IGamePlayer iGamePlayer){
       this.gamePlayer = iGamePlayer;
     }
 

@@ -1,4 +1,4 @@
-package gsonutil;
+package common.gsonutil;
 
 /**
  * @author zhangqiuwen

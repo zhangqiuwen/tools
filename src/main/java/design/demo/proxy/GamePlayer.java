@@ -1,4 +1,4 @@
-package proxy;
+package design.demo.proxy;
 
 import lombok.Data;
 
@@ -7,7 +7,7 @@ import lombok.Data;
  * @create 2017-12-26 11:50
  **/
 @Data
-public class GamePlayer implements IGamePlayer {
+public class GamePlayer implements design.demo.proxy.IGamePlayer {
     private String name="";
 
     public GamePlayer(String name){
